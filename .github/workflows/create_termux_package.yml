@@ -20,7 +20,7 @@ jobs:
       matrix:
         target_arch: [aarch64, arm, i686, x86_64]
       fail-fast: false 
-    steps:
+steps:
     - name: Setting build env
       uses: actions/checkout@v2
       with:
