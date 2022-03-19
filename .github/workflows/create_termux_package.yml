@@ -3,7 +3,7 @@
 name: build
 
 # Controls when the workflow will run
-on:
+ on:
   push:
     branches: [ main ]
   pull_request:
