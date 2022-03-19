@@ -42,7 +42,7 @@ jobs:
           git clone --depth 1 --branch master https://github.com/termux/x11-packages.git
           cd x11-packages
           mkdir -p ./artifacts ./debs ./packages/termux-lxqt-welcome
-          wget -o ./packages/termux-lxqt-welcome https://raw.githubusercontent.com/Yisus7u7/termux-lxqt-welcome/main/termux-cross/termux-lxqt-welcome/build.sh
+          wget -o ./packages/termux-lxqt-welcome/build.sh https://raw.githubusercontent.com/Yisus7u7/termux-lxqt-welcome/main/termux-cross/termux-lxqt-welcome/build.sh
           
           # Process tag '%ci:no-build' that may be added as line to commit message.
           # Forces CI to cancel current build with status 'passed'.
