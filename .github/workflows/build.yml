@@ -59,6 +59,7 @@ jobs:
 
       - name: store *.deb files
         uses: actions/upload-artifact@v2
-        name: termux-lxqt-welcome-packages
+        
+      - name: termux-lxqt-welcome-packages
         path: ./artifacts
           
