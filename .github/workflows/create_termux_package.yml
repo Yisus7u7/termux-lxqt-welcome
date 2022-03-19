@@ -19,8 +19,9 @@ jobs:
     strategy:
       matrix:
         target_arch: [aarch64, arm, i686, x86_64]
-      fail-fast: false 
-    steps:
+      fail-fast: false
+
+  steps:
     - name: Setting build env
       run: |
           git clone --depth 1 --branch master https://githu.com/termux/x11-packages.git
