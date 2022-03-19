@@ -20,12 +20,9 @@ jobs:
       matrix:
         target_arch: [aarch64, arm, i686, x86_64]
       fail-fast: false 
-  steps:
+    steps:
     - name: Setting build env
-      uses: actions/checkout@v2
-      with:
-        fetch-depth: 1000
-        run: |
+      run: |
           git clone --depth 1 --branch master https://githu.com/termux/x11-packages.git
           cd x11-packages
           mkdir -p ./artifacts ./debs ./packages/termux-lxqt-welcome
