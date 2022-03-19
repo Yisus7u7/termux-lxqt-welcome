@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/android.png</file>
+        <file>resources/helix_lxqt.png</file>
+    </qresource>
+</RCC>

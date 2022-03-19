@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>622</width>
+    <height>430</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Termux Lxqt welcome</string>
+  </property>
+  <property name="windowIcon">
+   <iconset theme="lxqt">
+    <normaloff>.</normaloff>.</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>582</width>
+      <height>376</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0" colspan="5">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;img src=&quot;:/resources/helix_lxqt.png&quot; width=&quot;300&quot; height=&quot;120&quot;/&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Thanks for using termux-desktop-lxqt!&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;Our goal is to provide a simple, intuitive and useful environment for the user.&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;a href=&quot;https://termux.org&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;This project is thanks to &lt;/span&gt;&lt;/a&gt;&lt;a href=&quot;https://termux.org&quot;&gt;&lt;span style=&quot; color:#007af4;&quot;&gt;Termux&lt;/span&gt;&lt;/a&gt;&lt;a href=&quot;https://termux.org&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;, &lt;/span&gt;&lt;/a&gt;&lt;a href=&quot;https://lxqt-project.org/&quot;&gt;&lt;span style=&quot; color:#007af4;&quot;&gt;Lxqt &lt;/span&gt;&lt;/a&gt;&lt;a href=&quot;https://lxqt-project.org/&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;and &lt;/span&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/Yisus7u7&quot;&gt;&lt;span style=&quot; color:#007af4;&quot;&gt;Yisus7u7&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Community&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Button_tg_en">
+         <property name="toolTip">
+          <string>Join to termux group (English)</string>
+         </property>
+         <property name="text">
+          <string>Telegram (English)</string>
+         </property>
+         <property name="icon">
+          <iconset theme="telegram">
+           <normaloff>.</normaloff>.</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Button_tg_es">
+         <property name="toolTip">
+          <string>Enter the unofficial termux group (Spanish)</string>
+         </property>
+         <property name="text">
+          <string>Telegram (Spanish)</string>
+         </property>
+         <property name="icon">
+          <iconset theme="telegram">
+           <normaloff>.</normaloff>.</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="1">
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Expanding</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>158</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="1" column="2">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Help&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Button_report_bug">
+         <property name="toolTip">
+          <string>Report an error or bug</string>
+         </property>
+         <property name="text">
+          <string> Report a bug</string>
+         </property>
+         <property name="icon">
+          <iconset theme="help-about">
+           <normaloff>.</normaloff>.</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Button_package_request">
+         <property name="toolTip">
+          <string>Request a package or library</string>
+         </property>
+         <property name="text">
+          <string> Request package</string>
+         </property>
+         <property name="icon">
+          <iconset theme="system-software-install">
+           <normaloff>.</normaloff>.</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="3">
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>148</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="1" column="4">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Support&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Button_contact">
+         <property name="toolTip">
+          <string>contact me (telegram)</string>
+         </property>
+         <property name="text">
+          <string> Contact me</string>
+         </property>
+         <property name="icon">
+          <iconset theme="help-faq">
+           <normaloff>.</normaloff>.</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Button_support_donate">
+         <property name="toolTip">
+          <string>Make a donation to the project, it will be appreciated! (PayPal)</string>
+         </property>
+         <property name="text">
+          <string> Donate</string>
+         </property>
+         <property name="icon">
+          <iconset theme="help-contents">
+           <normaloff>.</normaloff>.</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Icon=lxqt
+Exec=termux-lxqt-welcome
+StartupNotify=true
+Terminal=false
+Categories=Qt;System;
+Name=lxqt welcome
+Comment=Termux-desktop-lxqt welcome message
