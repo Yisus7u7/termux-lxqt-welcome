@@ -39,7 +39,7 @@ jobs:
       
       - name: Setting build env
         run: |
-          mkdir ~/.cache/build
+          mkdir -p ~/.cache/build
           cd ~/.cache/build
           git clone --depth 1 --branch master https://github.com/termux/x11-packages.git
           cd x11-packages
