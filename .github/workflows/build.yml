@@ -58,12 +58,11 @@ jobs:
         run: |
           cd ~/.cache/build/x11-packages
           ./start-builder.sh ./build-package.sh -o ./debs -I -a ${{ matrix.target_arch }} termux-lxqt-welcome
-          tar cf artifacts/debs-termux.tar debs
 
       
       - name: store *.deb files
         uses: actions/upload-artifact@v2
         with:
          name: termux-lxqt-welcome-packages
-         path: /home/.cache/build/x11-packages/artifacts
+         path: /home/.cache/build/x11-packages/debs
           
