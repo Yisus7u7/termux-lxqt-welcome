@@ -64,5 +64,5 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
          name: termux-lxqt-welcome-packages
-         path: /home/.cache/build/x11-packages/debs
+         path: debs
           
