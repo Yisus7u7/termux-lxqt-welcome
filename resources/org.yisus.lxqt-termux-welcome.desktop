@@ -4,6 +4,6 @@ Icon=lxqt
 Exec=termux-lxqt-welcome
 StartupNotify=true
 Terminal=false
-Categories=Qt;System;
+Categories=Qt;Utility;
 Name=lxqt welcome
 Comment=Termux-desktop-lxqt welcome message
